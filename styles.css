@@ -2,10 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
 }
 
 header {
-    background-color: #f0f0f0;
+    background-color: #4169e1; /* Royal blue header */
+    color: #fff; /* White text */
     padding: 20px;
     text-align: center;
 }
@@ -24,6 +26,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     padding: 10px;
+    color: #4169e1; /* Royal blue link color */
 }
 
 main {
