@@ -11,10 +11,10 @@
           <UIcon name="i-fa-twitter"/>
         </a>
         <a href="https://github.com" target="_blank" class="text-gray-500 hover:text-blue-500">
-          <i class="fab fa-github fa-2x"></i>
+          <UIcon name="i-fa-github"/>
         </a>
         <a href="https://linkedin.com" target="_blank" class="text-gray-500 hover:text-blue-500">
-          <i class="fab fa-linkedin fa-2x"></i>
+          <UIcon name="i-fa-linkedin"/>
         </a>
       </div>
     </section>

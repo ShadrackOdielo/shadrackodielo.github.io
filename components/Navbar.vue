@@ -3,9 +3,10 @@
       <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         <!-- Logo / Name -->
         <div class="flex-shrink-0">
-          <NuxtLink :to="homeLink" class="flex items-center">
+          <NuxtLink :to="homeLink" class="flex items-center"><ClientOnly>
             <img v-if="isHomeSection" src="/avatar.jpg" alt="Avatar" class="h-8 w-8 rounded-full">
             <span v-else class="text-xl font-bold dark:text-white">Shadrack Odielo</span>
+          </ClientOnly>
           </NuxtLink>
         </div>
         <!-- Links for larger screens -->
@@ -46,12 +47,12 @@
   const progress = ref(0)
   
   const links = [
-    { id: 'home', name : 'home',  href: '#'},
-    { id: 'about', name: 'About', href: '#about' },
-    { id: 'work', name: 'Work', href: '#work' },
-    { id: 'skills', name: 'Skills', href: '#skills' },
-    { id: 'experience', name: 'Experience', href: '#experience' },
-    { id: 'contact', name: 'Contact', href: '#contact' },
+    { id: 'home', name : 'home',  href: '/#'},
+    { id: 'about', name: 'About', href: '/#about' },
+    { id: 'work', name: 'Work', href: '/#work' },
+    { id: 'skills', name: 'Skills', href: '/#skills' },
+    { id: 'experience', name: 'Experience', href: '/#experience' },
+    { id: 'contact', name: 'Contact', href: '/#contact' },
   ]
   
   const homeLink = computed(() => {
