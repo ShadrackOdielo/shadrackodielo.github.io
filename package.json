@@ -9,6 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "deploy": "gh-pages --dotfiles -d .output/public"
+    
   },
   "devDependencies": {
     "@nuxt/content": "^2.13.0",
