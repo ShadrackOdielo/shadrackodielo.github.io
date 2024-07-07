@@ -1,7 +1,7 @@
 <template>
     <section id="about" class="min-h-screen flex flex-col justify-center items-center text-center space-y-6 animate-fade-in">
       <div class="relative text-4xl md:text-6xl font-bold">
-        <span class="absolute inset-0 text-gray-200 text-6xl md:text-9xl font-bold -z-10">Who Am I</span>
+        <span class="absolute inset-0 text-gray-200 text-6xl md:text-9xl font-bold  -z-10">Who Am I</span>
         <span>About Me</span>
       </div>
       <div class="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-6">

@@ -6,8 +6,7 @@ export default defineNuxtConfig({
     baseURL: '', // Replace with your repo name
      buildAssetsDir: 'assets',
   },
- 
-  css: ["~/assets/css/tailwind.css"],
+
   ui: {
     icons: ['mdi', 'fa','devicon','heroicons','fa'],
   }
